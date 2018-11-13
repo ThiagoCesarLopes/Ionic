@@ -1,4 +1,12 @@
+// @import "../pages/masters/masters";
 /* Flex Item */
+.pane[state$="tabs.facts"]{
+    background: green;
+}
+.pane[state$="$.facts"]{
+    background: green;
+}
+
 .item {
 	margin: 5px;
 	height: 10em;
@@ -14,8 +22,8 @@
     display: flex;
 	max-width: 400px;
 	margin: 10 auto;
-
 }
+
 .row {
 	flex-direction: row;
 }
